@@ -1,0 +1,16 @@
+#results{
+	display: none;
+}
+#titlecaps{
+	font-size: 20px;
+	color: #000;
+}
+.jumbotron{
+	background-color: #90BBEB;
+}
+label{
+	font-size: 18px;
+}
+.btn{
+	background-color: #3A86DB;
+}

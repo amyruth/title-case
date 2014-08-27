@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Title Case Generator</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css" media="all">
+<link rel="stylesheet" type="text/css" href="styles.css" media="all">
+<script src="jquery-1.11.1.js"></script>
+<script src="scripts.js"></script>
+</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Title Case Tool</h1>
+				<p>Capitalize all your words without retyping. <strong>Because you're LAZY!</strong></p>
+			</div>
+
+			
+			<form role="form" id="blanks">
+				<div class="form-group">
+					<label for="start-text">Enter a sentence</label>
+					<input type="text" id="start-text" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary">Get title cased!</button>
+				</div>
+			</form>
+
+			<div id="results">
+				<h3>Here's your new sentence after processing:</h3>
+				<p id="titlecaps"></p>
+			</div>
+		</div> <!-- end container -->
+	</body>
+</html>
